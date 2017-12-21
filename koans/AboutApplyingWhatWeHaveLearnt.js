@@ -10,7 +10,8 @@ describe("About Applying What We Have Learnt", function() {
        { name: "Pizza Primavera", ingredients: ["roma", "sundried tomatoes", "goats cheese", "rosemary"], containsNuts: false },
        { name: "South Of The Border", ingredients: ["black beans", "jalapenos", "mushrooms"], containsNuts: false },
        { name: "Blue Moon", ingredients: ["blue cheese", "garlic", "walnuts"], containsNuts: true },
-       { name: "Taste Of Athens", ingredients: ["spinach", "kalamata olives", "sesame seeds"], containsNuts: true }
+       { name: "Taste Of Athens", ingredients: ["spinach", "kalamata olives", "sesame seeds"], containsNuts: true },
+	   { name: "Taste of India", ingredients: ["paneer", "spinach", "cashew"], containsNuts: true }
     ];
   });
 
@@ -43,6 +44,18 @@ describe("About Applying What We Have Learnt", function() {
 
       expect(productsICanEat.length).toBe(FILL_ME_IN);
   });
+  
+   /*********************************************************************************/
+
+  it("should add all the  numbers below 100 ", function () {
+    
+    var sum = 0;
+    for(var i=1; i<100; i+=1) {
+        sum += i;
+    }
+    
+    expect(sum).toBe(FILL_ME_IN);
+  }
 
   /*********************************************************************************/
 
